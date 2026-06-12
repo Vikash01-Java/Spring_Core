@@ -15,7 +15,7 @@ public class Appconfig {
 		DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
 		driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/mydb");
 		driverManagerDataSource.setUsername("root");
-		driverManagerDataSource.setPassword("root");
+		driverManagerDataSource.setPassword("Root");
 		driverManagerDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		return driverManagerDataSource;
 	}
